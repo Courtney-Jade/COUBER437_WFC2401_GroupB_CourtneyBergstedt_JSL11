@@ -18,7 +18,11 @@ function initializeData() {
 
 // TASK: Get elements from the DOM
 const elements = {
-
+  taskList: document.querySelector('#task-list'),
+  sidebar: document.querySelector('#sidebar'),
+  addButton: document.querySelector('#add-button'),
+  headerBoardName: document.querySelector('#header-board-name'),
+  columnDivs: document.querySelectorAll('.column-div'),
 }
 
 let activeBoard = ""
